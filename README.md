@@ -1,2 +1,17 @@
-# Portfolio
-Hi, My name is Anass Hamzaoui and this repository will contain my online portfolio. This portfolio will be made using Python, flask and prisma in the back-end and HTML, CSS and Javascript/Typscript in the front-end.
+## Portfolio
+
+### Description
+Hi, I'm a student at the University of Antwerp. I'm currently in my second year of the bachelor Applied Computer Science. I'm looking for an internship to gain experience in the field of computer science. This portfolio will give you an overview of my skills and projects. I hope you enjoy it!
+
+### Tech Stack
+- Back-end:
+  -     Python
+  -     Flask
+  -     FastAPI
+  -     Prisma (postgreSQL)
+- Front-end:
+  -     HTML
+  -     CSS
+  -     JavaScript
+  -     TailwindCSS
+  -     Svelte-kit

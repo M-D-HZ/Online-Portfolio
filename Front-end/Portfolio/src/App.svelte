@@ -3,9 +3,32 @@
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-</main>
+	<nav>
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/Contact">Contact</a></li>
+		</ul>
+	</nav>
+
+	<style>
+		nav{
+			text-align: right;
+			margin-bottom: 2em;
+			margin-right: 10em;
+		}
+		ul{
+			text-transform: uppercase;
+			font-size: 1em;
+			font-weight: 100;
+		}
+		li{
+			display: inline-block;
+			color: #f4f4f4;
+			padding-right: 10px;
+		}
+
+	</style>
+	</main>
 
 <style>
 	main {

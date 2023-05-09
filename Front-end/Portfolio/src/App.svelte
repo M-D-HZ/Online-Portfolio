@@ -1,34 +1,48 @@
 <script>
-	export let name;
+
 </script>
 
 <main>
-	<nav>
-		<ul>
-			<li><a href="/">Home</a></li>
-			<li><a href="/Contact">Contact</a></li>
-		</ul>
-	</nav>
+	<!-- Navbar.svelte -->
+    <nav>
+      <img src="navicon.png">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/contact" target="_blank">Contact</a></li>
+      </ul>
+    </nav>
 
-	<style>
-		nav{
-			text-align: right;
-			margin-bottom: 2em;
-			margin-right: 10em;
-		}
-		ul{
-			text-transform: uppercase;
-			font-size: 1em;
-			font-weight: 100;
-		}
-		li{
-			display: inline-block;
-			color: #f4f4f4;
-			padding-right: 10px;
-		}
-
-	</style>
-	</main>
+    <style>
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em;
+      }
+      ul {
+        list-style-type: none;
+        margin-right: 8em;
+        padding: 0;
+        display: flex;
+        justify-content: right;
+      }
+      li {
+        margin: 0 8px;
+        font-family: 'Arial', sans-serif;
+        color: #ff3e00;
+      }
+      img {
+          margin-right: 16px;
+          margin-left: 5em;
+      }
+      a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        padding-right: 1em;
+      }
+    </style>
+</main>
 
 <style>
 	main {

@@ -17,5 +17,5 @@ Hi, I'm a student at the University of Antwerp. I'm currently in my second year 
   -     HTML
   -     CSS
   -     JavaScript
-  -     TailwindCSS
-  -     Svelte-kit
+  -     React
+  -     Bootstrap

@@ -9,11 +9,11 @@ const App = () =>{
                   <Navbar/>
                   <Hero/>
               </div>
+              <About/>
               <Experience/>
               <Tech/>
               <Works/>
               <Feedbacks/>
-              <About/>
               <div className="relative z-0">
                   <Contact/>
                   <StarsCanvas/>

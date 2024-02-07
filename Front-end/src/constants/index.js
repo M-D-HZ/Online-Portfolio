@@ -15,14 +15,22 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
-  tripguide,
+  cSharp,
+  ua,
+  python,
+  antlr,
+  bash,
+  cPlusPlus,
+  flask,
+  java,
+  postgresql,
+  scrum,
+  svelte,
+  vite,
   threejs,
+  JsTs,
 } from "../assets";
 
 export const navLinks = [
@@ -61,28 +69,12 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
+    name: "JavaScript and typescript",
+    icon: JsTs,
   },
   {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -93,10 +85,6 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "Three JS",
     icon: threejs,
   },
@@ -105,61 +93,50 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "Bash",
+    icon: bash,
+  },
+  {
+    name: "python",
+    icon: python,
+  },
+  {
+    name: "C++",
+    icon: cPlusPlus,
+  },
+  {
+    name: "Flask",
+    icon: flask,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "PostgreSQL",
+    icon: postgresql,
+  },
+  {
+    name: "Scrum",
+    icon: scrum,
+  },
+  {
+    name: "Svelte",
+    icon: svelte,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "University of Antwerp (Student)",
+    icon: ua,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "March 2021 - April 2025",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -167,6 +144,46 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+   {
+     title: "Software Developer",
+     company_name: "University of Antwerp (Student)",
+     icon: ua,
+     iconBg: "#E6DEDD",
+     date: "Jan 2021 - Feb 2022",
+     points: [
+       "Crafting robust software solutions using Python, Java, or similar languages, along with relevant frameworks and libraries.\n" +
+       "Engaging in cross-disciplinary collaboration with designers, product managers, and fellow engineers to deliver innovative and scalable products.\n" +
+       "Championing best practices in coding standards, documentation, and version control, fostering a culture of excellence and efficiency.\n" +
+       "Contributing to comprehensive testing strategies, including unit tests, integration tests, and end-to-end tests, to uphold product quality.\n" +
+       "Participating actively in peer code reviews, offering constructive feedback and driving continuous improvement in codebase quality.",
+     ],
+   },
+  // {
+  //   title: "Web Developer",
+  //   company_name: "Shopify",
+  //   icon: shopify,
+  //   iconBg: "#383E56",
+  //   date: "Jan 2022 - Jan 2023",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -198,68 +215,70 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "News Aggregator",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "In our news aggregator project, we strategically chose a tech stack that capitalized on our team's strengths and facilitated rapid collaboration. Python with Flask on the backend leveraged our existing Python expertise while offering a beginner-friendly framework for seamless adaptation. Svelte-Kit and TailwindCSS on the frontend enabled swift page creation and component sharing, showcasing our focus on productivity and user experience. Integrating Prisma as our ORM framework underscored our commitment to security and best practices, ensuring robust database interactions. This holistic approach minimized the learning curve and amplified our development velocity, positioning us as adaptable and results-driven professionals. Our tech choices highlighted our ability to balance efficiency with quality, making us valuable assets in any technical environment.",
     tags: [
       {
-        name: "react",
+        name: "Flask",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "prisma",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "tailwind/svelte-kit",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/florrdv/news-aggregator?tab=readme-ov-file",
   },
   {
-    name: "Job IT",
+    name: "Markov Text Generator",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Writing a book is hard, but in this day and age we have computers to help us with correcting text and avoiding common grammar mistakes. Now, why won't we let a computer write the book for us.\n" +
+        "\n" +
+        "Of course this is with a little guidance and computers are not always perfect. Hence we allow the user to add some words and let the computer auto-complete this. On top of that, we know that any artist sometimes get their reference from other books and texts, so we got something for that too on out plan.",
     tags: [
       {
-        name: "react",
+        name: "Markov-chains",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Text-generation",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "QT5",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/M-D-HZ/TOg_TXT_Generator",
   },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+  // {
+  //   name: "Trip Guide",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

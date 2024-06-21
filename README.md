@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v1.0<br/>
-  In progress
+  (Will be remade)
 </h2>
 This project is still in development. The goal is to create a portfolio website for myself. The website will contain information about me, my skills and my projects. The website will also contain a blog where I can post about my projects and other things.
 
